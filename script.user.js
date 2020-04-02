@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name 💩-Cloud
-// @version 1.1
+// @version 1.2
 // @description made with sh*t in potsdam
 // @include https://schul-cloud.org/*
 // @downloadURL https://raw.githubusercontent.com/karlbeecken/made-with-poop-in-potsdam/master/script.user.js
@@ -18,6 +18,7 @@ function walkText(node) {
     node.data = node.data.replace(/Abgabe/g, "Abkacke");
     node.data = node.data.replace(/Aufgabe/g, "Aufkacke");
     node.data = node.data.replace(/Neuigkeiten/g, "Fake News");
+    node.data = node.data.replace(/Team/g, "Clan");
   }
   if (node.nodeType == 1 && node.nodeName != "SCRIPT") {
     for (var i = 0; i < node.childNodes.length; i++) {
