@@ -1,4 +1,4 @@
-# made-with-poo-in-potsdam
+# made-with-poop-in-potsdam
 Silly userscript to correct the HPI 💩-Cloud
 
 ## Installation:
