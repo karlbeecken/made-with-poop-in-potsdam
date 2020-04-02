@@ -3,7 +3,7 @@
 // @version 1.0
 // @description made with sh*t in potsdam
 // @include https://schul-cloud.org/*
-// @downloadURL https://raw.githubusercontent.com/karlbeecken/made-with-poo-in-potsdam/master/userscript.js
+// @downloadURL https://raw.githubusercontent.com/karlbeecken/made-with-poo-in-potsdam/master/script.user.js
 // ==/UserScript==
 
 // modify footer to correct the given false statements, there is no ❤️ anymore!
