@@ -3,6 +3,7 @@
 // @version 1.5
 // @description made with 💩 in potsdam
 // @include https://schul-cloud.org/*
+// @include https://blog.schul-cloud.org/*
 // @downloadURL https://raw.githubusercontent.com/karlbeecken/made-with-poop-in-potsdam/master/script.user.js
 // @updateURL https://raw.githubusercontent.com/karlbeecken/made-with-poop-in-potsdam/master/script.user.js
 // ==/UserScript==
