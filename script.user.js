@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name 💩-Cloud
-// @version 1.4
+// @version 1.5
 // @description made with 💩 in potsdam
 // @include https://schul-cloud.org/*
 // @downloadURL https://raw.githubusercontent.com/karlbeecken/made-with-poop-in-potsdam/master/script.user.js
@@ -16,7 +16,7 @@ function walkText(node) {
     node.data = node.data.replace(/Hasso-Plattner-Institut/g, "Heinz-Plattnasen-Institut");
     node.data = node.data.replace(/Kara/g, "Kaka");
     node.data = node.data.replace(/Abgabe/g, "Abkacke");
-    node.data = node.data.replace(/Aufgabe/g, "Aufkacke");
+    node.data = node.data.replace(/Aufgaben|Aufgabe/g, "Kinderarbeit");
     node.data = node.data.replace(/Neuigkeiten/g, "Fake News");
     node.data = node.data.replace(/Team/g, "Clan");
     node.data = node.data.replace(/kkos/g, "kakaos");
