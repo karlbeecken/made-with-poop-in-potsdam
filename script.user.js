@@ -15,8 +15,8 @@ function walkText(node) {
     node.data = node.data.replace(/schul-cloud/, "💩-cloud");
     node.data = node.data.replace(/Hasso-Plattner-Institut/g, "Heinz-Plattnasen-Institut");
     node.data = node.data.replace(/Kara/g, "Kaka");
-    node.data = node.data.replace(/Abgabe/, "Abkacke");
-    node.data = node.data.replace(/Aufgabe/, "Aufkacke");
+    node.data = node.data.replace(/Abgabe/g, "Abkacke");
+    node.data = node.data.replace(/Aufgabe/g, "Aufkacke");
   }
   if (node.nodeType == 1 && node.nodeName != "SCRIPT") {
     for (var i = 0; i < node.childNodes.length; i++) {
