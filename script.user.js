@@ -1,11 +1,16 @@
 // ==UserScript==
 // @name 💩-Cloud
 // @version 1.0
-// @description made with sh*t in potsdam
+// @description made with poop in potsdam
 // @include https://schul-cloud.org/*
 // @downloadURL https://raw.githubusercontent.com/karlbeecken/made-with-poop-in-potsdam/master/script.user.js
 // @updateURL https://raw.githubusercontent.com/karlbeecken/made-with-poop-in-potsdam/master/script.user.js
 // ==/UserScript==
+
+// modify heading on startpage
+
+var str = document.querySelector('.section-title').innerHTML;
+document.querySelector('.section-title').innerHTML = str.replace(/schul/i, "💩");
 
 // modify footer to correct the given false statements, there is no ❤️ anymore!
 
