@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name 💩-Cloud
-// @version 1.6
+// @version 1.7
 // @description made with 💩 in potsdam
 // @include https://schul-cloud.org/*
 // @include https://blog.schul-cloud.org/*
@@ -21,6 +21,7 @@ function walkText(node) {
     node.data = node.data.replace(/Neuigkeiten/g, "Fake News");
     node.data = node.data.replace(/Team/g, "Clan");
     node.data = node.data.replace(/kkos/g, "kakaos");
+    node.data = node.data.replace(/MINT-EC|Excellence/g, "Pfefferminz");
   }
   if (node.nodeType == 1 && node.nodeName != "SCRIPT") {
     for (var i = 0; i < node.childNodes.length; i++) {
