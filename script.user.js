@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name 💩-Cloud
-// @version 1.2
-// @description made with sh*t in potsdam
+// @version 1.3
+// @description made with 💩 in potsdam
 // @include https://schul-cloud.org/*
 // @downloadURL https://raw.githubusercontent.com/karlbeecken/made-with-poop-in-potsdam/master/script.user.js
 // @updateURL https://raw.githubusercontent.com/karlbeecken/made-with-poop-in-potsdam/master/script.user.js
