@@ -14,6 +14,7 @@ function walkText(node) {
     node.data = node.data.replace(/Schul-Cloud/, "💩-Cloud");
     node.data = node.data.replace(/schul-cloud/, "💩-cloud");
     node.data = node.data.replace(/Hasso-Plattner-Institut/g, "Heinz-Plattnasen-Institut");
+    node.data = node.data.replace(/Kara/g, "Kaka");
   }
   if (node.nodeType == 1 && node.nodeName != "SCRIPT") {
     for (var i = 0; i < node.childNodes.length; i++) {
