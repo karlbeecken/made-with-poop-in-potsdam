@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name 💩-Cloud
-// @version 1.7
+// @version 1.8
 // @description made with 💩 in potsdam
 // @include https://schul-cloud.org/*
 // @include https://blog.schul-cloud.org/*
