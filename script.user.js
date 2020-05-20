@@ -17,6 +17,7 @@ function walkText(node) {
     node.data = node.data.replace(/Hasso-Plattner-Institut/g, "Heinz-Plattnasen-Institut");
     node.data = node.data.replace(/Kara/g, "Kaka");
     node.data = node.data.replace(/Abgabe/g, "Abkacke");
+    node.data = node.data.replace(/Kurse/g, "Sekten");
     node.data = node.data.replace(/Aufgaben|Aufgabe/g, "Kinderarbeit");
     node.data = node.data.replace(/Neuigkeiten/g, "Fake News");
     node.data = node.data.replace(/Team/g, "Clan");
